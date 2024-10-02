@@ -72,11 +72,7 @@ const Pricing = () => {
             option4="Team projects"
             buttonIcon={FaRegSquare}
             type="limited"
-            buttonLink={
-              plan === "month"
-                ? "https://buy.stripe.com/test_3cscOa75e87e4lWeUW"
-                : "#"
-            }
+            buttonLink={plan === "month" ? "" : "#"}
           />
         </div>
         <div className="px-12 py-6 md:px-6 lg:px-12 border-2 border-blue-950 rounded-3xl md:border-l-0 md:rounded-l-none z-10">
